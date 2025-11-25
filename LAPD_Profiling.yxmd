@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Crime_Data_from_2020_to_Present_20251118.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Date Rptd" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="DATE OCC" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="TIME OCC" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="AREA NAME" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Rpt Dist No" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Part 1-2" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Crm Cd" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Crm Cd Desc" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Vict Age" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Vict Sex" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Vict Descent" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Premis Cd" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Premis Desc" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Weapon Used Cd" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Weapon Desc" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Status Desc" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Crm Cd 1" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Crm Cd 2" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Crm Cd 3" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Crm Cd 4" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Cross Street" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_6b62331553024fe799b6867e99fd2046~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="DR_NO" selected="True" />
+            <Field field="Date Rptd" selected="True" />
+            <Field field="DATE OCC" selected="True" />
+            <Field field="TIME OCC" selected="True" />
+            <Field field="AREA" selected="True" />
+            <Field field="AREA NAME" selected="True" />
+            <Field field="Rpt Dist No" selected="True" />
+            <Field field="Part 1-2" selected="True" />
+            <Field field="Crm Cd" selected="True" />
+            <Field field="Crm Cd Desc" selected="True" />
+            <Field field="Mocodes" selected="True" />
+            <Field field="Vict Age" selected="True" />
+            <Field field="Vict Sex" selected="True" />
+            <Field field="Vict Descent" selected="True" />
+            <Field field="Premis Cd" selected="True" />
+            <Field field="Premis Desc" selected="True" />
+            <Field field="Weapon Used Cd" selected="True" />
+            <Field field="Weapon Desc" selected="True" />
+            <Field field="Status" selected="True" />
+            <Field field="Status Desc" selected="True" />
+            <Field field="Crm Cd 1" selected="True" />
+            <Field field="Crm Cd 2" selected="True" />
+            <Field field="Crm Cd 3" selected="True" />
+            <Field field="Crm Cd 4" selected="True" />
+            <Field field="LOCATION" selected="True" />
+            <Field field="Cross Street" selected="True" />
+            <Field field="LAT" selected="True" />
+            <Field field="LON" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="9" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Date Rptd" size="23" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="DATE OCC" size="23" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="TIME OCC" size="4" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="AREA" size="2" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="AREA NAME" size="11" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Rpt Dist No" size="4" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Part 1-2" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Byte" />
+            <Field name="Crm Cd" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Crm Cd Desc" size="56" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Mocodes" size="49" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Vict Age" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Vict Sex" size="1" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Vict Descent" size="1" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Premis Cd" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Premis Desc" size="63" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Weapon Used Cd" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Weapon Desc" size="46" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="Status" size="2" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Status Desc" size="12" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Crm Cd 1" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Crm Cd 2" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Crm Cd 3" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="Crm Cd 4" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Int16" />
+            <Field name="LOCATION" size="40" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="String" />
+            <Field name="Cross Street" size="34" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="V_String" />
+            <Field name="LAT" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Double" />
+            <Field name="LON" source="File: C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Crime_Data_from_2020_to_Present_20251118.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DR_NO" selected="True" type="Int64" size="8" />
+            <SelectField field="Date Rptd" selected="True" rename="DATE_RPTD" type="V_String" size="2147483647" />
+            <SelectField field="DATE OCC" selected="True" rename="DATE_OCC" type="V_String" size="2147483647" />
+            <SelectField field="TIME OCC" selected="True" rename="TIME_OCC" type="V_String" size="20" />
+            <SelectField field="AREA" selected="True" type="Int16" size="2" />
+            <SelectField field="AREA NAME" selected="True" rename="AREA_NAME" />
+            <SelectField field="Rpt Dist No" selected="True" rename="RPT_DIST_NO" type="Int16" size="2" />
+            <SelectField field="Part 1-2" selected="True" rename="PART_1_2" type="Int16" size="2" />
+            <SelectField field="Crm Cd" selected="True" rename="CRM_CD" />
+            <SelectField field="Crm Cd Desc" selected="True" rename="CRM_CD_DESC" />
+            <SelectField field="Mocodes" selected="True" rename="MOCODES" />
+            <SelectField field="Vict Age" selected="True" rename="VICT_AGE" />
+            <SelectField field="Vict Sex" selected="True" rename="VICT_SEX" />
+            <SelectField field="Vict Descent" selected="True" rename="VICT_DESCENT" />
+            <SelectField field="Premis Cd" selected="True" rename="PREMIS_CD" />
+            <SelectField field="Premis Desc" selected="True" rename="PREMIS_DESC" />
+            <SelectField field="Weapon Used Cd" selected="True" rename="WEAPON_USED_CD" />
+            <SelectField field="Weapon Desc" selected="True" rename="WEAPON_DESC" />
+            <SelectField field="Status" selected="True" rename="STATUS" />
+            <SelectField field="Status Desc" selected="True" rename="STATUS_DESC" />
+            <SelectField field="Crm Cd 1" selected="True" rename="CRM_CD_1" />
+            <SelectField field="Crm Cd 2" selected="True" rename="CRM_CD_2" />
+            <SelectField field="Crm Cd 3" selected="True" rename="CRM_CD_3" />
+            <SelectField field="Crm Cd 4" selected="True" rename="CRM_CD_4" />
+            <SelectField field="Cross Street" selected="True" rename="CROSS_STREET" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_ac335451ced6466bbff3a290cc1ed86e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([DATE_OCC], &quot;%Y %b %d %I:%M:%S %p&quot;)&#xA;" field="DATE_OCC" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="DateTimeParse([DATE_RPTD], &quot;%Y %b %d %I:%M:%S %p&quot;)&#xA;" field="DATE_RPTD" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DATE_OCC = DateTimeParse([DATE_OCC], "%Y %b %d %I:%M:%S %p")
+
+DATE_RPTD = DateTi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_0e7bbfdde1e3421b980935855f127122~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="462" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"DR_NO","TIME_OCC","AREA","AREA_NAME","RPT_DIST_NO","PART_1_2","CRM_CD","CRM_CD_DESC","MOCODES","VICT_AGE","VICT_SEX","VICT_DESCENT","PREMIS_CD","PREMIS_DESC","WEAPON_USED_CD","WEAPON_DESC","STATUS","STATUS_DESC","CRM_CD_1","CRM_CD_2","CRM_CD_3","CRM_CD_4","LOCATION","CROSS_STREET"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_04064487e2e346de81e3654a1387ae33~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([TIME_OCC]) THEN Null()&#xA;ELSEIF [TIME_OCC] = &quot;&quot; THEN Null()&#xA;ELSEIF [TIME_OCC] = &quot;2400&quot; THEN DateTimeParse(&quot;00:00&quot;,&quot;%H:%M&quot;)&#xA;ELSEIF Length([TIME_OCC]) = 3 THEN DateTimeParse(&quot;0&quot; + [TIME_OCC], &quot;%H%M&quot;)&#xA;ELSE DateTimeParse([TIME_OCC], &quot;%H%M&quot;)&#xA;ENDIF&#xA;" field="TIME_OCC" size="20" type="V_String" enabled="true" />
+            <FormulaField expression="// If parsing fails → Null → invalid&#xA;IIF(IsNull(DateTimeParse([DATE_OCC],&quot;%Y-%m-%d %H:%M:%S&quot;)), 0, 1)&#xA;" field="Is_DateOcc_Valid" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="IIF(IsNull(DateTimeParse([DATE_RPTD],&quot;%Y-%m-%d %H:%M:%S&quot;)), 0, 1)&#xA;" field="Is_DateRptd_Valid" size="2" type="Int16" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TIME_OCC = IF IsNull([TIME_OCC]) THEN Null()
+ELSEIF [TIME_OCC] = "" THEN Null()
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_9ea07ce1cc674af7aa13e7b4d30bee37~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="702" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">DR_NO=True,DATE_RPTD=True,DATE_OCC=True,TIME_OCC=True,AREA=True,AREA_NAME=True,RPT_DIST_NO=True,PART_1_2=True,CRM_CD=True,CRM_CD_DESC=True,MOCODES=True,VICT_AGE=True,VICT_SEX=True,VICT_DESCENT=True,PREMIS_CD=True,PREMIS_DESC=True,WEAPON_USED_CD=True,WEAPON_DESC=True,STATUS=True,STATUS_DESC=True,CRM_CD_1=True,CRM_CD_2=True,CRM_CD_3=True,CRM_CD_4=True,LOCATION=True,CROSS_STREET=True,LAT=True,LON=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_a61c0903028b488caacaed22e917cb3b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[LAT] >= 33 AND [LAT] <= 35
+AND
+[LON] <= -117 AND [LON] >= -119
+
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[[LAT] >= 33 AND [LAT] <= 35
+AND
+[LON] <= -117 AND [LON] >= -119
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_3120d814f808496eb8f2738bd59d637f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_277a215749524b4babf0882a0ebfccea~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="834" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[Vict_Age] >= 0 AND [Vict_Age] <= 110
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[[Vict_Age] >= 0 AND [Vict_Age] <= 110
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_9bb5dc89569240e7aa3d9a34f72e2971~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krish\AppData\Local\Temp\Alteryx\Engine_25812_2d136037cf4e4530828ae4878fe8e735_\Engine_25812_270d3d134e26458bacc10fafa034c61e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="990" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\krish\OneDrive\Documents\Fall2025 Semester\DADA BI\Assignment10_End-to-End_LAPD\Cleaned_LAPD.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cleaned_LAPD.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="False" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="False" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>LAPD_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="07474c54-fef8-42fe-93bf-ce9772550d85" />
+      <Telemetry>
+        <PreviousWorkflowId value="1cd4d969-1388-4ab3-8754-7651e16eeaf9" />
+        <OriginWorkflowId value="1cd4d969-1388-4ab3-8754-7651e16eeaf9" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
